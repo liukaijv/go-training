@@ -1,0 +1,8 @@
+package: go-training/go-http
+import:
+- package: github.com/jinzhu/gorm
+  version: ^1.9.1
+  subpackages:
+  - dialects/sqlite
+- package: github.com/mattn/go-sqlite3
+  version: ^1.9.0
