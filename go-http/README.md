@@ -106,7 +106,7 @@ http.SetCookie(w, cookie)
 //func (r *Request) Cookie(name string) (*Cookie, error)
 cookie, err := r.Cookie("username")
 //remove
-//这个没有提供，让Expires就相当于删除了
+//这个没有提供，设置Expires过期就相当于删除了
 cookie, _ := r.Cookie("username")
 if cookie != nil {
 	cookie.Expires = time.Now().AddDate(-1, 0, 0)
