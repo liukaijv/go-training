@@ -1,11 +1,11 @@
 package rsa
 
 import (
+	"crypto/rand"
+	"crypto/rsa"
+	"crypto/x509"
 	"encoding/pem"
 	"errors"
-	"crypto/x509"
-	"crypto/rsa"
-	"crypto/rand"
 	"os"
 )
 

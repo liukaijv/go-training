@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/ethereum/go-ethereum/rpc"
 	"fmt"
+	"github.com/ethereum/go-ethereum/rpc"
 )
 
 func main() {

@@ -2,17 +2,17 @@
 package rsa
 
 import (
-	"encoding/pem"
-	"encoding/base64"
-	"crypto/x509"
-	"crypto/rsa"
-	"crypto/rand"
-	"errors"
-	"crypto"
-	"io"
 	"bytes"
+	"crypto"
+	"crypto/rand"
+	"crypto/rsa"
+	"crypto/x509"
 	"encoding/asn1"
+	"encoding/base64"
+	"encoding/pem"
+	"errors"
 	"fmt"
+	"io"
 )
 
 const (

@@ -1,10 +1,10 @@
 package main
 
 import (
-	"net/http"
 	"encoding/json"
-	"log"
 	"io/ioutil"
+	"log"
+	"net/http"
 )
 
 func main() {

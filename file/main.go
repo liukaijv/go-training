@@ -1,13 +1,13 @@
 package main
 
 import (
-	"net/http"
-	"io/ioutil"
-	"fmt"
 	"encoding/json"
-	"sync"
+	"fmt"
+	"io/ioutil"
+	"net/http"
 	"os"
 	"os/signal"
+	"sync"
 )
 
 func getDog(resChan chan string) {

@@ -1,8 +1,8 @@
 package aes
 
 import (
-	"crypto/aes"
 	"bytes"
+	"crypto/aes"
 	"crypto/cipher"
 )
 

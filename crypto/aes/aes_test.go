@@ -1,9 +1,9 @@
 package aes
 
 import (
-	"testing"
 	"encoding/base64"
 	"fmt"
+	"testing"
 )
 
 func TestAes(t *testing.T) {

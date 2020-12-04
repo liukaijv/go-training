@@ -1,9 +1,9 @@
 package main
 
 import (
-	"testing"
-	"fmt"
 	"encoding/hex"
+	"fmt"
+	"testing"
 )
 
 func TestNewBlock(t *testing.T) {

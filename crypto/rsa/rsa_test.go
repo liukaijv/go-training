@@ -1,9 +1,9 @@
 package rsa
 
 import (
-	"testing"
 	"fmt"
 	"io/ioutil"
+	"testing"
 )
 
 func loadKeys() (publicKey, privateKey []byte, err error) {

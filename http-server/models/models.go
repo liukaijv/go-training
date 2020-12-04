@@ -1,9 +1,9 @@
 package models
 
 import (
-	"go-training/go-http/conf"
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/sqlite"
+	"http-server/conf"
 )
 
 type DB struct {

@@ -1,13 +1,13 @@
 package main
 
 import (
-	"net/http"
-	"log"
-	"os"
 	"fmt"
-	"go-training/go-http/handlers"
-	"go-training/go-http/models"
-	"go-training/go-http/conf"
+	"http-server/conf"
+	"http-server/handlers"
+	"http-server/models"
+	"log"
+	"net/http"
+	"os"
 )
 
 func SayHello(w http.ResponseWriter, r *http.Request) {

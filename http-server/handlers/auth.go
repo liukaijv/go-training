@@ -1,9 +1,9 @@
 package handlers
 
 import (
-	"net/http"
 	"html/template"
-	"go-training/go-http/models"
+	"http-server/models"
+	"net/http"
 	"time"
 )
 

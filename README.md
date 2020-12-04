@@ -1,3 +1,3 @@
 # go-training
 
-> golang练手入门
+> golang练手

@@ -1,15 +1,15 @@
 package main
 
 import (
-	"github.com/ethereum/go-ethereum/ethclient"
-	"github.com/ethereum/go-ethereum/accounts/abi/bind"
-	"time"
 	"bytes"
-	"fmt"
-	"log"
 	"context"
+	"ethereum-develop/contracts"
+	"fmt"
+	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	"github.com/ethereum/go-ethereum/crypto"
-	"go-training/go-eth-develop/contracts"
+	"github.com/ethereum/go-ethereum/ethclient"
+	"log"
+	"time"
 )
 
 func main() {

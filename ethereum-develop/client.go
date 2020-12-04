@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/ethereum/go-ethereum/ethclient"
-	"fmt"
 	"context"
+	"fmt"
+	"github.com/ethereum/go-ethereum/ethclient"
 )
 
 func main() {

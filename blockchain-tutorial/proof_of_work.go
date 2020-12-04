@@ -1,11 +1,11 @@
 package main
 
 import (
-	"math/big"
 	"bytes"
+	"crypto/sha256"
 	"fmt"
 	"math"
-	"crypto/sha256"
+	"math/big"
 )
 
 const (
@@ -18,7 +18,7 @@ type ProofOfWork struct {
 	target *big.Int
 }
 
-func NewProofOfwork(block *Block) *ProofOfWork {
+func NewProofOfWork(block *Block) *ProofOfWork {
 	target := big.NewInt(1)
 	target.Lsh(target, uint(255-targetBits))
 

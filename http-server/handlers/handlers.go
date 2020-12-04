@@ -1,10 +1,10 @@
 package handlers
 
 import (
-	"log"
-	"go-training/go-http/models"
-	"net/http"
 	"html/template"
+	"http-server/models"
+	"log"
+	"net/http"
 )
 
 type Person struct {

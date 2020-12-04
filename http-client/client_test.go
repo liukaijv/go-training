@@ -1,13 +1,13 @@
 package main
 
 import (
-	"testing"
-	"net/http"
-	"io/ioutil"
-	"fmt"
-	"strings"
-	"net/url"
 	"bytes"
+	"fmt"
+	"io/ioutil"
+	"net/http"
+	"net/url"
+	"strings"
+	"testing"
 )
 
 func TestGet(t *testing.T) {
